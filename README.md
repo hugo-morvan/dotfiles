@@ -4,27 +4,25 @@ A portable Neovim configuration for Windows, WSL, and Arch Linux with:
 
 - LSP support for Python, Go, SQL
 - AI completions (Copilot, Codeium)
-- One Dark theme (`navarasu/onedark.nvim`) :contentReference[oaicite:1]{index=1}
+- One Dark theme (`navarasu/onedark.nvim`)
 - Works with terminal Neovim and Neovim-Qt
 
 ## Installation
 
-1. Clone the repo:
-
-```sh
-git clone https://github.com/hugo-morvan/dotfiles ~/.config/nvim
+Linux install:
+```bash
+git clone https://github.com/hugo-morvan/dotfiles-nvim.git
+cd dotfiles-nvim
+./install/install.sh
+nvim
+:PackerInstall
 ```
 
-Install LSP tools:
-
-```sh
-npm install -g pyright
-go install golang.org/x/tools/gopls@latest
-```
-(make sure pyright and gopls are on your PATH)
-
-Open Neovim and run:
-
-```vim
+Windows install:
+```powershell
+git clone https://github.com/hugo-morvan/dotfiles-nvim.git
+cd dotfiles-nvim
+.\install\install.ps1
+nvim
 :PackerInstall
 ```
