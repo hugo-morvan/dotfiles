@@ -11,8 +11,8 @@ A portable Neovim configuration for Windows, WSL, and Arch Linux with:
 
 Linux install:
 ```bash
-git clone https://github.com/hugo-morvan/dotfiles-nvim.git
-cd dotfiles-nvim
+git clone https://github.com/hugo-morvan/dotfiles.git
+cd dotfiles
 ./install/install.sh
 nvim
 :PackerInstall
@@ -20,8 +20,8 @@ nvim
 
 Windows install:
 ```powershell
-git clone https://github.com/hugo-morvan/dotfiles-nvim.git
-cd dotfiles-nvim
+git clone https://github.com/hugo-morvan/dotfiles.git
+cd dotfiles
 .\install\install.ps1
 nvim
 :PackerInstall
