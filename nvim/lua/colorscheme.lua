@@ -1,4 +1,2 @@
-require("onedark").setup({
-  style = "darker"
-})
-require("onedark").load()
+require("gruber-darker").setup()
+vim.cmd("colorscheme gruber-darker")
